@@ -10,7 +10,7 @@ import Footer from './components/footer';
 import About from './components/About';
 import Contact from './components/contact';
 import Portfolio from "./components/portfolio";
-
+import Resume from './components/resume';
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
                 <Route exact path="/" component={About} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/resume" component={Resume} />
                 {/* <Route exact path="/login" component={Login} />
                 <Route exact path="/signup" component={Signup} />
                 <Route exact path="/profile/:username?" component={Profile} />
