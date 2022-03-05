@@ -1,0 +1,110 @@
+main {
+  margin: 0 auto;
+  max-width: fit-content;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary:#e597a6;
+  --secondary:#97e5d7;
+  --lightPrim:#ffc8d7;
+  --darkPrim:#b16877;
+  --lightSec:#caffff;
+  --darkSec:#66b3a6;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 450;
+  line-height: 1.5;
+  font-size: 22px;
+  background: var(--primary);
+  font: #0000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
+
+.px-2 {
+  padding-right: var(--spacing-two);
+  padding-left: var(--spacing-two);
+}
+
+.py-1 {
+  padding-top: var(--spacing-one);
+  padding-bottom: var(--spacing-one);
+}
+
+.py-2 {
+  padding-top: var(--spacing-two);
+  padding-bottom: var(--spacing-two);
+}
