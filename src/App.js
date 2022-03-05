@@ -4,8 +4,12 @@ import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+import Header from './components/header';
+import Footer from './components/footer';
+
 import About from './components/About';
 import Contact from './components/contact';
+
 
 function App() {
   return (
@@ -23,6 +27,7 @@ function App() {
         /> */}
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
+          <Header />
             <div className="container">
               <Switch>
                 <Route exact path="/" component={About} />
@@ -36,6 +41,7 @@ function App() {
               </Switch>
             </div>
         </div>
+        <Footer />
       </Router>
     </div>
   );

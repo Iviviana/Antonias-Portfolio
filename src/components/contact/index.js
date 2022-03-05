@@ -67,12 +67,12 @@ function ContactForm () {
           <Card.Title className="mb-3">Contact Me</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formName">
-              <Form.Label>Name</Form.Label>
+              <Form.Label>Name:</Form.Label>
               <Form.Control type="text" placeholder="Your name" name="name" defaultValue={name} onChange={handleChange} />
             </Form.Group>
     
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>Email address:</Form.Label>
               <Form.Control type="email" placeholder="Enter email" name="email" defaultValue={email} onChange={handleChange} />
               <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
@@ -80,7 +80,7 @@ function ContactForm () {
             </Form.Group>
     
             <Form.Group className="mb-3" controlId="formMessage">
-              <Form.Label>Message</Form.Label>
+              <Form.Label>Message:</Form.Label>
               <FormControl as="textarea" name="message" defaultValue={message} onChange={handleChange}/>
             </Form.Group>
             <Button variant="primary" type="submit">
