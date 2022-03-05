@@ -9,6 +9,7 @@ import Footer from './components/footer';
 
 import About from './components/About';
 import Contact from './components/contact';
+import Portfolio from "./components/portfolio";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
               <Switch>
                 <Route exact path="/" component={About} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/portfolio" component={Portfolio} />
                 {/* <Route exact path="/login" component={Login} />
                 <Route exact path="/signup" component={Signup} />
                 <Route exact path="/profile/:username?" component={Profile} />
