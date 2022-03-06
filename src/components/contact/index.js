@@ -50,7 +50,7 @@ function ContactForm () {
     }
 
     return (
-        <Row className="justify-content-md-center mb-5 mt-5">
+        <Row className="contact">
             <ToastContainer
             position="top-center"
             autoClose={false}
@@ -73,7 +73,7 @@ function ContactForm () {
     
             <Form.Group className="mb-3" controlId="formEmail">
               <Form.Label>Email address:</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" name="email" defaultValue={email} onChange={handleChange} />
+              <Form.Control type="email" placeholder="Enter email" name="email" defaultValue={email} onChange={handleChange} /><br />
               <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
               </Form.Text>

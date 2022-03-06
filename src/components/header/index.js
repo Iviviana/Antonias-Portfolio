@@ -4,18 +4,20 @@ import {Link, NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
-      <header className="bg-secondary mb-4 py-2 flex-row align-center">
-        <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <header className="border d-flex align-items-center justify-content-center">
+        <div>
           <Link to="/">
             <h1>Antonia Garcia</h1>
           </Link>
   
-          <nav className="text-center">
-            <Link to="/">About Me</Link>
-            <Link to="/contact">Contact Me</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/resume">Resume</Link>
-          </nav>
+          <div className="border d-flex align-items-center">
+            <Nav className="text-center">
+              <Link to="/">About Me</Link>
+              <Link to="/contact">Contact Me</Link>
+              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/resume">Resume</Link>
+            </Nav>
+          </div>
         </div>
       </header>
     );

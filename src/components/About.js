@@ -7,10 +7,10 @@ import Avatar from '@mui/material/Avatar';
 function About() {
     return (
         <Container>
-           <Row className="justify-content-md-center mb-5 mt-5">
+           <Row>
                 <Col md={5}>
                     <Card bg="dark" text="white" body>
-                        <Row className="justify-content-md-center">
+                        <Row >
                             {/* <Col md={4}>
                             <Image className="img-fluid " roundedCircle fluid thumbnail src={image} />
                             </Col> */}
@@ -20,7 +20,7 @@ function About() {
                                 src={image}
                                 sx={{ width: 200, height: 200 }}
                                 />
-                            <Card.Text className="text-center mb-2">
+                            <Card.Text>
                                 Welcome to my portfolio!<br/> <br/>
                                 Before I studied coding, I'd graduated from Florida International Univeristy with a Bachelor's of Science in Biological Sciences with Honors (Magna Cum Laude).<br />
                                 After graduation, I began working in the University of Miami (UM) Health System during the height of the pandemic. Which is how I found out about the coding bootcamp. <br />

@@ -1,8 +1,25 @@
-# Getting Started with Create React App
+# My REACT Portfolio
+
+[My Portfolio](https://iviviana.github.io/Antonias-Portfolio/)
+
+## Table of Contents
+
+* [Description](#description)
+* [Tests](#tests)
+* [Use REACT App](#use-react-app)
+
+
+## Description
+
+This weeks challenge had me make a new portfolio using REACT. It has been a challenge, and there's still a few kinks I need to work on, mostly on the CSS, but I do have a portfolio that I am happy with. I can't wait to come back to this and work on it more and update it.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tests
+
+None were made for this application.
+
+## Use REACT App
 
 In the project directory, you can run:
 
