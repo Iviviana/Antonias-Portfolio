@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Iviviana/Antonias-Portfolio/static/css/main.5b0b5054.css",
+    "main.js": "/Iviviana/Antonias-Portfolio/static/js/main.8fd5c3bd.js",
+    "static/js/787.d3ab00cf.chunk.js": "/Iviviana/Antonias-Portfolio/static/js/787.d3ab00cf.chunk.js",
+    "static/media/avatar.png": "/Iviviana/Antonias-Portfolio/static/media/avatar.1ee9793f0bdf46dd1004.png",
+    "index.html": "/Iviviana/Antonias-Portfolio/index.html",
+    "main.5b0b5054.css.map": "/Iviviana/Antonias-Portfolio/static/css/main.5b0b5054.css.map",
+    "main.8fd5c3bd.js.map": "/Iviviana/Antonias-Portfolio/static/js/main.8fd5c3bd.js.map",
+    "787.d3ab00cf.chunk.js.map": "/Iviviana/Antonias-Portfolio/static/js/787.d3ab00cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b0b5054.css",
+    "static/js/main.8fd5c3bd.js"
+  ]
+}
